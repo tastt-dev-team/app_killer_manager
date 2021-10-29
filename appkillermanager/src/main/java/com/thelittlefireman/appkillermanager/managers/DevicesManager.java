@@ -22,7 +22,7 @@ import java.util.List;
 
 public class DevicesManager {
 
-    private static List<DeviceAbstract> deviceBaseList = new ArrayList<>(Arrays.asList(
+    private static final List<DeviceAbstract> deviceBaseList = new ArrayList<>(Arrays.asList(
             new Asus(),
             new Huawei(),
             new Letv(),
@@ -31,7 +31,7 @@ public class DevicesManager {
             new Oppo(),
             new Vivo(),
             new HTC(),
-            new Samsung(),
+//            new Samsung(),
             new Xiaomi(),
             new ZTE()));
 
